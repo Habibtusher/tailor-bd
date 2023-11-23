@@ -10,7 +10,7 @@ const insertIntoDB = catchAsync(async (req: Request, res: Response) => {
     sendResponse(res, {
         statusCode: httpStatus.OK,
         success: true,
-        message: "User created successfully",
+        message: "Customer created successfully",
         data: result
     })
 })
