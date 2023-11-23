@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "G:\\Mahabub\\mySQL_prisma\\logs\\winston\\successes\\.12c04a2f2004ffe12506fb360b92c6de06a8db95-audit.json",
+    "files": [
+        {
+            "date": 1700626449673,
+            "name": "G:\\Mahabub\\mySQL_prisma\\logs\\winston\\successes\\bc-2023-22-11-10-success.log",
+            "hash": "b08e252de528610ae86fe121ed55023e47b996abc16ef8f61f57a23297ec6be9"
+        }
+    ],
+    "hashType": "sha256"
+}
