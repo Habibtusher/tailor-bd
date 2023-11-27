@@ -12,11 +12,12 @@ datasource db {
 
 model Customer {
   id      Int    @id @default(autoincrement())
-  name    String
-  mobile  String
+  customerName    String
+  mobileNumber  String
   address String
   images  String
   gender  String
+  
 
   @@map("customers")
 }
