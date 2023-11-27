@@ -2,9 +2,9 @@ import { z } from "zod";
 
 const create = z.object({
     body: z.object({
-        name: z.string({ required_error: "Name is required" }),
+        customerName: z.string({ required_error: "Customer name is required" }),
         gender: z.string({ required_error: "Gender is required" }),
-        mobile: z.string({ required_error: "Number is required" }),
+        mobileNumber: z.string({ required_error: "Mobile number is required" }),
         address: z.string({ required_error: "Gender is required" }),
     })
 })

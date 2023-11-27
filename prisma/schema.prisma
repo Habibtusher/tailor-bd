@@ -15,7 +15,7 @@ model Customer {
   customerName    String
   mobileNumber  String
   address String
-  images  String
+  images  String?
   gender  String
   
 

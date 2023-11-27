@@ -1,7 +1,8 @@
-import { Customer } from "@prisma/client"
-import { prismaClient } from "../../../helpers/prismaClient"
+import { Customer } from "@prisma/client";
+import { prismaClient } from "../../../helpers/prismaClient";
 
 const insertIntoDB = async (payload: Customer): Promise<Customer> => {
+    
     const result = await prismaClient.customer.create({
         data: payload
     })
